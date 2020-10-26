@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,device-width initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <img src=".././images/logo1.gif" alt="header-logo">
+        </div>
+        <div class="login-register">
+            <a class="login" href="#" id="login">Login</a>
+            <a class="register" href="#" id="register">Register</a>
+        </div>
+    </div>
+    <div class="menu">
+        <a class="active" id="homee">Home</a>
+        <div class="product">
+          <button class="dropbtn">Product </button>
+          <div class="list-car">
+            <a id="family">Family Car</a>
+            <a id="commercial">Commercial Car</a>
+            <a id="luxury">Luxury Car</a>
+          </div>
+        </div> 
+        <a id="contact">Contact</a>
+      </div>
+
+
+    <main>
+        <div class="login-sec">
+            <h3>Login</h3>
+            <p>Email</p>
+            <input id="email" type="email">
+            <p>Password</p>
+            <input id="password" type="password">
+            <br><br>
+            <input class="login" type="button" value="login" onclick="login()">
+            <br>
+            <br>
+            <p>Dont have an account? Register <a class="regis" id="register1">Here!</a></p>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="parent-email">
+            <div class="container-email">
+            <div class="subs-logo">
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><img src=".././images/instagram.png"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src=".././images/youtube.png"></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src=".././images/twitter.png"></a>
+                <a href="https://facebook.com/?lang=en" target="_blank"><img src=".././images/facebook.png"></a>
+            </div>
+            <div class="your_email">
+                <p>Subscribe Our Newsletter</p>
+                <input type="email" placeholder="Your Email">
+                <br>
+                <br>
+                <a href="#">Subscribe</a>
+            </div>
+            </div>
+            <div class="copyright">
+                <p>&#169Copyright 2018 by Fredrick Kho</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../href.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

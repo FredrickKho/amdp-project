@@ -1,0 +1,79 @@
+main{
+    height: 550px;
+}
+.body-contact{
+    text-align: center;
+    display:inline;
+
+}
+.kirim{
+    text-decoration: none;
+    background-color:skyblue;
+    color: white;
+    padding:10px 20px;
+    border-radius: 3px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+
+}
+.body-contact h2{
+    font-size: 50px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.data p{
+    font-weight: bold;
+}
+.userdata input{
+    border:3px solid grey;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    width:350px;
+    background-color: #d0d5db;
+}
+
+.information p{
+    font-weight: bold;
+}
+
+.facebook{
+    color:blue;
+    font-weight: bold;
+}
+
+.data{
+    float:left;
+    background-color: #d0d5db;
+    padding:20px;
+    margin-left: 250px;
+    margin-right:20px;
+}
+
+.userdata {
+    float:left;
+    
+}
+.message{
+    float:right;
+    padding-left:80px;
+}
+.userdata p{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.message p{
+    text-align: left;
+}
+.message input{
+    margin-left:240px;
+    margin-top:10px;
+}
+.information h3{
+    font-size:25px;
+}
+.information{
+    padding-top:20px;
+    text-align: left;
+}

@@ -1,0 +1,12 @@
+document.getElementById("contact").onclick=function(){
+    location.href="/Contact/contact.html";
+};
+document.getElementById("family").onclick=function(){
+    location.href="/Product/family.html";
+};
+document.getElementById("login").onclick=function(){
+    location.href="../LOGIN/login.html";
+};
+document.getElementsByClassName("login").onclick=function(){
+    location.href="../LOGIN/login.html";
+};

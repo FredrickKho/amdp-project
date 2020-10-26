@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,device-width initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <img src=".././images/logo1.gif" alt="header-logo">
+        </div>
+        <div class="login-register">
+            <a class="login" href="#" id="login">Login</a>
+            <a class="register" href="#" id="register">Register</a>
+        </div>
+    </div>
+    <div class="menu">
+        <a class="active" id="homee">Home</a>
+        <div class="product">
+          <button class="dropbtn">Product </button>
+          <div class="list-car">
+            <a id="family">Family Car</a>
+            <a id="commercial">Commercial Car</a>
+            <a id="luxury">Luxury Car</a>
+          </div>
+        </div> 
+        <a id="contact">Contact</a>
+      </div>
+
+    <main>
+        <div class="reg-body">
+            <div class="form">
+                <h3>Register</h3>
+                <p>Name :</p>
+                <input class="text" id="name" type="text">
+                <p>Email :</p>
+                <input class="text" id="email" type="email">
+                <p>Gender :</p>
+                <div class="gender">
+                    <input type="radio" value="male" name="gender"> Male
+                    <input type="radio" value="female" name="gender"> Female
+                </div>
+                <p>City :</p>
+                <select class="text select">
+                    <option>Select your city</option>
+                    <option>Jakarta</option>
+                    <option>Bogor</option>
+                    <option>Depok</option>
+                    <option>Tangerang</option>
+                    <option>Bekasi</option>
+                    <option>Batam</option>
+                </select>
+                <p>Address :</p>
+                <textarea rows="4" id="address" class="text area"></textarea>
+            </div>
+            <br>
+            <br>
+            <br>
+            <input type="button" id="daftar" class="daftar" onclick="daftar()" value="Register">
+    </main>
+
+    <footer>
+        <div class="parent-email">
+            <div class="container-email">
+            <div class="subs-logo">
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><img src=".././images/instagram.png"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src=".././images/youtube.png"></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src=".././images/twitter.png"></a>
+                <a href="https://facebook.com/?lang=en" target="_blank"><img src=".././images/facebook.png"></a>
+            </div>
+            <div class="your_email">
+                <p>Subscribe Our Newsletter</p>
+                <input type="email" placeholder="Your Email">
+                <br>
+                <br>
+                <a href="#">Subscribe</a>
+            </div>
+            </div>
+            <div class="copyright">
+                <p>&#169Copyright 2018 by Fredrick Kho</p>
+            </div>
+        </div>
+    </footer>
+    <script src="register.js"></script>
+    <script src="../href.js"></script>
+    
+</body>
+</html>
